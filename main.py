@@ -20,9 +20,9 @@ class Library:
             print("Sorry!!! The book  you want is not available in our library.")
             return False
 
-    def issueDate(self):
-        self.date = (input("Date of book issued: "))
-        print(f"This book is issued in date : {self.date}")
+    # def issueDate(self):
+    #     self.date = (input("Date of book issued: "))
+    #     print(f"This book is issued in date : {self.date}")
 
     def returnDate(self):
         self.date = (input("Date of book returned: "))
